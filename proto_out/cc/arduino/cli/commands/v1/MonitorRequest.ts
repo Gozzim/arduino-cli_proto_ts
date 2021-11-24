@@ -8,14 +8,14 @@ export interface MonitorRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
   'port'?: (_cc_arduino_cli_commands_v1_Port | null);
   'fqbn'?: (string);
-  'txData'?: (Buffer | Uint8Array | string);
-  'portConfiguration'?: (_cc_arduino_cli_commands_v1_MonitorPortConfiguration | null);
+  'tx_data'?: (Buffer | Uint8Array | string);
+  'port_configuration'?: (_cc_arduino_cli_commands_v1_MonitorPortConfiguration | null);
 }
 
 export interface MonitorRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
   'port': (_cc_arduino_cli_commands_v1_Port__Output | null);
   'fqbn': (string);
-  'txData': (Buffer);
-  'portConfiguration': (_cc_arduino_cli_commands_v1_MonitorPortConfiguration__Output | null);
+  'tx_data': (Buffer);
+  'port_configuration': (_cc_arduino_cli_commands_v1_MonitorPortConfiguration__Output | null);
 }

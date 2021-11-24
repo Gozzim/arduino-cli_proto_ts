@@ -1,4 +1,4 @@
-// Original file: src/cc/arduino/cli/monitor/v1/monitor.proto
+// Original file: src\cc\arduino\cli\monitor\v1\monitor.proto
 
 import type * as grpc from '@grpc/grpc-js'
 import type { MethodDefinition } from '@grpc/proto-loader'

@@ -4,14 +4,14 @@ import type { Instance as _cc_arduino_cli_commands_v1_Instance, Instance__Output
 
 export interface BoardAttachRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
-  'boardUri'?: (string);
-  'sketchPath'?: (string);
-  'searchTimeout'?: (string);
+  'board_uri'?: (string);
+  'sketch_path'?: (string);
+  'search_timeout'?: (string);
 }
 
 export interface BoardAttachRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
-  'boardUri': (string);
-  'sketchPath': (string);
-  'searchTimeout': (string);
+  'board_uri': (string);
+  'sketch_path': (string);
+  'search_timeout': (string);
 }

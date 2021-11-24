@@ -6,12 +6,12 @@ export interface LibraryInstallRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
   'name'?: (string);
   'version'?: (string);
-  'noDeps'?: (boolean);
+  'no_deps'?: (boolean);
 }
 
 export interface LibraryInstallRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
   'name': (string);
   'version': (string);
-  'noDeps': (boolean);
+  'no_deps': (boolean);
 }

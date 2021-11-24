@@ -3,9 +3,9 @@
 import type { TaskProgress as _cc_arduino_cli_commands_v1_TaskProgress, TaskProgress__Output as _cc_arduino_cli_commands_v1_TaskProgress__Output } from '../../../../../cc/arduino/cli/commands/v1/TaskProgress';
 
 export interface PlatformUninstallResponse {
-  'taskProgress'?: (_cc_arduino_cli_commands_v1_TaskProgress | null);
+  'task_progress'?: (_cc_arduino_cli_commands_v1_TaskProgress | null);
 }
 
 export interface PlatformUninstallResponse__Output {
-  'taskProgress': (_cc_arduino_cli_commands_v1_TaskProgress__Output | null);
+  'task_progress': (_cc_arduino_cli_commands_v1_TaskProgress__Output | null);
 }

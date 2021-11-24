@@ -10,8 +10,8 @@ export interface BurnBootloaderRequest {
   'verbose'?: (boolean);
   'verify'?: (boolean);
   'programmer'?: (string);
-  'dryRun'?: (boolean);
-  'userFields'?: ({[key: string]: string});
+  'dry_run'?: (boolean);
+  'user_fields'?: ({[key: string]: string});
 }
 
 export interface BurnBootloaderRequest__Output {
@@ -21,6 +21,6 @@ export interface BurnBootloaderRequest__Output {
   'verbose': (boolean);
   'verify': (boolean);
   'programmer': (string);
-  'dryRun': (boolean);
-  'userFields': ({[key: string]: string});
+  'dry_run': (boolean);
+  'user_fields': ({[key: string]: string});
 }

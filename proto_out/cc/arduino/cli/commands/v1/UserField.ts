@@ -2,14 +2,14 @@
 
 
 export interface UserField {
-  'toolId'?: (string);
+  'tool_id'?: (string);
   'name'?: (string);
   'label'?: (string);
   'secret'?: (boolean);
 }
 
 export interface UserField__Output {
-  'toolId': (string);
+  'tool_id': (string);
   'name': (string);
   'label': (string);
   'secret': (boolean);

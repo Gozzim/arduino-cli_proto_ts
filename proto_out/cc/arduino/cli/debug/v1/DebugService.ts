@@ -1,4 +1,4 @@
-// Original file: src/cc/arduino/cli/debug/v1/debug.proto
+// Original file: src\cc\arduino\cli\debug\v1\debug.proto
 
 import type * as grpc from '@grpc/grpc-js'
 import type { MethodDefinition } from '@grpc/proto-loader'

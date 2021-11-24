@@ -13,23 +13,23 @@ export interface Library {
   'category'?: (string);
   'architectures'?: (string)[];
   'types'?: (string)[];
-  'installDir'?: (string);
-  'sourceDir'?: (string);
-  'utilityDir'?: (string);
-  'containerPlatform'?: (string);
-  'realName'?: (string);
-  'dotALinkage'?: (boolean);
+  'install_dir'?: (string);
+  'source_dir'?: (string);
+  'utility_dir'?: (string);
+  'container_platform'?: (string);
+  'real_name'?: (string);
+  'dot_a_linkage'?: (boolean);
   'precompiled'?: (boolean);
-  'ldFlags'?: (string);
-  'isLegacy'?: (boolean);
+  'ld_flags'?: (string);
+  'is_legacy'?: (boolean);
   'version'?: (string);
   'license'?: (string);
   'properties'?: ({[key: string]: string});
   'location'?: (_cc_arduino_cli_commands_v1_LibraryLocation | keyof typeof _cc_arduino_cli_commands_v1_LibraryLocation);
   'layout'?: (_cc_arduino_cli_commands_v1_LibraryLayout | keyof typeof _cc_arduino_cli_commands_v1_LibraryLayout);
   'examples'?: (string)[];
-  'providesIncludes'?: (string)[];
-  'compatibleWith'?: ({[key: string]: boolean});
+  'provides_includes'?: (string)[];
+  'compatible_with'?: ({[key: string]: boolean});
 }
 
 export interface Library__Output {
@@ -42,21 +42,21 @@ export interface Library__Output {
   'category': (string);
   'architectures': (string)[];
   'types': (string)[];
-  'installDir': (string);
-  'sourceDir': (string);
-  'utilityDir': (string);
-  'containerPlatform': (string);
-  'realName': (string);
-  'dotALinkage': (boolean);
+  'install_dir': (string);
+  'source_dir': (string);
+  'utility_dir': (string);
+  'container_platform': (string);
+  'real_name': (string);
+  'dot_a_linkage': (boolean);
   'precompiled': (boolean);
-  'ldFlags': (string);
-  'isLegacy': (boolean);
+  'ld_flags': (string);
+  'is_legacy': (boolean);
   'version': (string);
   'license': (string);
   'properties': ({[key: string]: string});
   'location': (keyof typeof _cc_arduino_cli_commands_v1_LibraryLocation);
   'layout': (keyof typeof _cc_arduino_cli_commands_v1_LibraryLayout);
   'examples': (string)[];
-  'providesIncludes': (string)[];
-  'compatibleWith': ({[key: string]: boolean});
+  'provides_includes': (string)[];
+  'compatible_with': ({[key: string]: boolean});
 }

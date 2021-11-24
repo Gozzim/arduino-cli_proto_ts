@@ -3,9 +3,9 @@
 import type { InstalledLibrary as _cc_arduino_cli_commands_v1_InstalledLibrary, InstalledLibrary__Output as _cc_arduino_cli_commands_v1_InstalledLibrary__Output } from '../../../../../cc/arduino/cli/commands/v1/InstalledLibrary';
 
 export interface LibraryListResponse {
-  'installedLibraries'?: (_cc_arduino_cli_commands_v1_InstalledLibrary)[];
+  'installed_libraries'?: (_cc_arduino_cli_commands_v1_InstalledLibrary)[];
 }
 
 export interface LibraryListResponse__Output {
-  'installedLibraries': (_cc_arduino_cli_commands_v1_InstalledLibrary__Output)[];
+  'installed_libraries': (_cc_arduino_cli_commands_v1_InstalledLibrary__Output)[];
 }

@@ -1,4 +1,4 @@
-// Original file: src/cc/arduino/cli/debug/v1/debug.proto
+// Original file: src\cc\arduino\cli\debug\v1\debug.proto
 
 
 export interface DebugResponse {

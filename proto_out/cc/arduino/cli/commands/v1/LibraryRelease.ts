@@ -15,7 +15,7 @@ export interface LibraryRelease {
   'types'?: (string)[];
   'resources'?: (_cc_arduino_cli_commands_v1_DownloadResource | null);
   'license'?: (string);
-  'providesIncludes'?: (string)[];
+  'provides_includes'?: (string)[];
   'dependencies'?: (_cc_arduino_cli_commands_v1_LibraryDependency)[];
 }
 
@@ -31,6 +31,6 @@ export interface LibraryRelease__Output {
   'types': (string)[];
   'resources': (_cc_arduino_cli_commands_v1_DownloadResource__Output | null);
   'license': (string);
-  'providesIncludes': (string)[];
+  'provides_includes': (string)[];
   'dependencies': (_cc_arduino_cli_commands_v1_LibraryDependency__Output)[];
 }

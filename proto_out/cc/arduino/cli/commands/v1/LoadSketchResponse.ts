@@ -1,18 +1,18 @@
-// Original file: src/cc/arduino/cli/commands/v1/commands.proto
+// Original file: src\cc\arduino\cli\commands\v1\commands.proto
 
 
 export interface LoadSketchResponse {
-  'mainFile'?: (string);
-  'locationPath'?: (string);
-  'otherSketchFiles'?: (string)[];
-  'additionalFiles'?: (string)[];
-  'rootFolderFiles'?: (string)[];
+  'main_file'?: (string);
+  'location_path'?: (string);
+  'other_sketch_files'?: (string)[];
+  'additional_files'?: (string)[];
+  'root_folder_files'?: (string)[];
 }
 
 export interface LoadSketchResponse__Output {
-  'mainFile': (string);
-  'locationPath': (string);
-  'otherSketchFiles': (string)[];
-  'additionalFiles': (string)[];
-  'rootFolderFiles': (string)[];
+  'main_file': (string);
+  'location_path': (string);
+  'other_sketch_files': (string)[];
+  'additional_files': (string)[];
+  'root_folder_files': (string)[];
 }

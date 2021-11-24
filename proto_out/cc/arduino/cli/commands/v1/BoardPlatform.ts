@@ -6,7 +6,7 @@ export interface BoardPlatform {
   'architecture'?: (string);
   'category'?: (string);
   'url'?: (string);
-  'archiveFilename'?: (string);
+  'archive_filename'?: (string);
   'checksum'?: (string);
   'size'?: (number | string | Long);
   'name'?: (string);
@@ -16,7 +16,7 @@ export interface BoardPlatform__Output {
   'architecture': (string);
   'category': (string);
   'url': (string);
-  'archiveFilename': (string);
+  'archive_filename': (string);
   'checksum': (string);
   'size': (string);
   'name': (string);

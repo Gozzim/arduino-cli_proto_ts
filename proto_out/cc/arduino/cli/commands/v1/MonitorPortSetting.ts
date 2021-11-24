@@ -2,11 +2,11 @@
 
 
 export interface MonitorPortSetting {
-  'settingId'?: (string);
+  'setting_id'?: (string);
   'value'?: (string);
 }
 
 export interface MonitorPortSetting__Output {
-  'settingId': (string);
+  'setting_id': (string);
   'value': (string);
 }

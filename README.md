@@ -10,4 +10,4 @@ Script and Output for the arduino-cli rpc proto files in TypeScript
 - grpc: [proto-loader-gen-types](https://github.com/grpc/grpc-node)
 
 ## License
-This code and content is released under the [GPL-3.0 license](https://github.com/Gozzim/arduino-cli_proto-ts/blob/master/LICENSE).
+This code and content is released under the [GPL-3.0 license](https://github.com/Gozzim/arduino-cli_proto_ts/blob/master/LICENSE).

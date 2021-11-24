@@ -5,10 +5,10 @@ import type { TaskProgress as _cc_arduino_cli_commands_v1_TaskProgress, TaskProg
 
 export interface PlatformUpgradeResponse {
   'progress'?: (_cc_arduino_cli_commands_v1_DownloadProgress | null);
-  'taskProgress'?: (_cc_arduino_cli_commands_v1_TaskProgress | null);
+  'task_progress'?: (_cc_arduino_cli_commands_v1_TaskProgress | null);
 }
 
 export interface PlatformUpgradeResponse__Output {
   'progress': (_cc_arduino_cli_commands_v1_DownloadProgress__Output | null);
-  'taskProgress': (_cc_arduino_cli_commands_v1_TaskProgress__Output | null);
+  'task_progress': (_cc_arduino_cli_commands_v1_TaskProgress__Output | null);
 }

@@ -4,12 +4,12 @@ import type { Instance as _cc_arduino_cli_commands_v1_Instance, Instance__Output
 
 export interface PlatformUninstallRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
-  'platformPackage'?: (string);
+  'platform_package'?: (string);
   'architecture'?: (string);
 }
 
 export interface PlatformUninstallRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
-  'platformPackage': (string);
+  'platform_package': (string);
   'architecture': (string);
 }

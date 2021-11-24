@@ -4,12 +4,12 @@ import type { ConfigValue as _cc_arduino_cli_commands_v1_ConfigValue, ConfigValu
 
 export interface ConfigOption {
   'option'?: (string);
-  'optionLabel'?: (string);
+  'option_label'?: (string);
   'values'?: (_cc_arduino_cli_commands_v1_ConfigValue)[];
 }
 
 export interface ConfigOption__Output {
   'option': (string);
-  'optionLabel': (string);
+  'option_label': (string);
   'values': (_cc_arduino_cli_commands_v1_ConfigValue__Output)[];
 }

@@ -3,12 +3,12 @@
 
 export interface ConfigValue {
   'value'?: (string);
-  'valueLabel'?: (string);
+  'value_label'?: (string);
   'selected'?: (boolean);
 }
 
 export interface ConfigValue__Output {
   'value': (string);
-  'valueLabel': (string);
+  'value_label': (string);
   'selected': (boolean);
 }

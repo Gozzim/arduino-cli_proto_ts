@@ -3,10 +3,10 @@
 
 export interface LibraryDependency {
   'name'?: (string);
-  'versionConstraint'?: (string);
+  'version_constraint'?: (string);
 }
 
 export interface LibraryDependency__Output {
   'name': (string);
-  'versionConstraint': (string);
+  'version_constraint': (string);
 }

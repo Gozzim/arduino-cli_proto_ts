@@ -11,7 +11,7 @@ export interface Platform {
   'website'?: (string);
   'email'?: (string);
   'boards'?: (_cc_arduino_cli_commands_v1_Board)[];
-  'manuallyInstalled'?: (boolean);
+  'manually_installed'?: (boolean);
   'deprecated'?: (boolean);
 }
 
@@ -24,6 +24,6 @@ export interface Platform__Output {
   'website': (string);
   'email': (string);
   'boards': (_cc_arduino_cli_commands_v1_Board__Output)[];
-  'manuallyInstalled': (boolean);
+  'manually_installed': (boolean);
   'deprecated': (boolean);
 }

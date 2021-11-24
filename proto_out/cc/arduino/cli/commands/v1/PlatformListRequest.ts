@@ -4,12 +4,12 @@ import type { Instance as _cc_arduino_cli_commands_v1_Instance, Instance__Output
 
 export interface PlatformListRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
-  'updatableOnly'?: (boolean);
+  'updatable_only'?: (boolean);
   'all'?: (boolean);
 }
 
 export interface PlatformListRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
-  'updatableOnly': (boolean);
+  'updatable_only': (boolean);
   'all': (boolean);
 }

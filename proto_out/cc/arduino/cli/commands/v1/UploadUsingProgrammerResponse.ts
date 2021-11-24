@@ -2,11 +2,11 @@
 
 
 export interface UploadUsingProgrammerResponse {
-  'outStream'?: (Buffer | Uint8Array | string);
-  'errStream'?: (Buffer | Uint8Array | string);
+  'out_stream'?: (Buffer | Uint8Array | string);
+  'err_stream'?: (Buffer | Uint8Array | string);
 }
 
 export interface UploadUsingProgrammerResponse__Output {
-  'outStream': (Buffer);
-  'errStream': (Buffer);
+  'out_stream': (Buffer);
+  'err_stream': (Buffer);
 }

@@ -4,12 +4,12 @@ import type { MonitorPortSetting as _cc_arduino_cli_commands_v1_MonitorPortSetti
 
 export interface MonitorResponse {
   'error'?: (string);
-  'rxData'?: (Buffer | Uint8Array | string);
-  'appliedSettings'?: (_cc_arduino_cli_commands_v1_MonitorPortSetting)[];
+  'rx_data'?: (Buffer | Uint8Array | string);
+  'applied_settings'?: (_cc_arduino_cli_commands_v1_MonitorPortSetting)[];
 }
 
 export interface MonitorResponse__Output {
   'error': (string);
-  'rxData': (Buffer);
-  'appliedSettings': (_cc_arduino_cli_commands_v1_MonitorPortSetting__Output)[];
+  'rx_data': (Buffer);
+  'applied_settings': (_cc_arduino_cli_commands_v1_MonitorPortSetting__Output)[];
 }

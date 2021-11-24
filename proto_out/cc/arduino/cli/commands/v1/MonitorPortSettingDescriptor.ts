@@ -2,17 +2,17 @@
 
 
 export interface MonitorPortSettingDescriptor {
-  'settingId'?: (string);
+  'setting_id'?: (string);
   'label'?: (string);
   'type'?: (string);
-  'enumValues'?: (string)[];
+  'enum_values'?: (string)[];
   'value'?: (string);
 }
 
 export interface MonitorPortSettingDescriptor__Output {
-  'settingId': (string);
+  'setting_id': (string);
   'label': (string);
   'type': (string);
-  'enumValues': (string)[];
+  'enum_values': (string)[];
   'value': (string);
 }

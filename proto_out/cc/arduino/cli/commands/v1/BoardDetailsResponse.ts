@@ -11,32 +11,32 @@ export interface BoardDetailsResponse {
   'fqbn'?: (string);
   'name'?: (string);
   'version'?: (string);
-  'propertiesId'?: (string);
+  'properties_id'?: (string);
   'alias'?: (string);
   'official'?: (boolean);
   'pinout'?: (string);
   'package'?: (_cc_arduino_cli_commands_v1_Package | null);
   'platform'?: (_cc_arduino_cli_commands_v1_BoardPlatform | null);
-  'toolsDependencies'?: (_cc_arduino_cli_commands_v1_ToolsDependencies)[];
-  'configOptions'?: (_cc_arduino_cli_commands_v1_ConfigOption)[];
+  'tools_dependencies'?: (_cc_arduino_cli_commands_v1_ToolsDependencies)[];
+  'config_options'?: (_cc_arduino_cli_commands_v1_ConfigOption)[];
   'programmers'?: (_cc_arduino_cli_commands_v1_Programmer)[];
-  'debuggingSupported'?: (boolean);
-  'identificationProperties'?: (_cc_arduino_cli_commands_v1_BoardIdentificationProperties)[];
+  'debugging_supported'?: (boolean);
+  'identification_properties'?: (_cc_arduino_cli_commands_v1_BoardIdentificationProperties)[];
 }
 
 export interface BoardDetailsResponse__Output {
   'fqbn': (string);
   'name': (string);
   'version': (string);
-  'propertiesId': (string);
+  'properties_id': (string);
   'alias': (string);
   'official': (boolean);
   'pinout': (string);
   'package': (_cc_arduino_cli_commands_v1_Package__Output | null);
   'platform': (_cc_arduino_cli_commands_v1_BoardPlatform__Output | null);
-  'toolsDependencies': (_cc_arduino_cli_commands_v1_ToolsDependencies__Output)[];
-  'configOptions': (_cc_arduino_cli_commands_v1_ConfigOption__Output)[];
+  'tools_dependencies': (_cc_arduino_cli_commands_v1_ToolsDependencies__Output)[];
+  'config_options': (_cc_arduino_cli_commands_v1_ConfigOption__Output)[];
   'programmers': (_cc_arduino_cli_commands_v1_Programmer__Output)[];
-  'debuggingSupported': (boolean);
-  'identificationProperties': (_cc_arduino_cli_commands_v1_BoardIdentificationProperties__Output)[];
+  'debugging_supported': (boolean);
+  'identification_properties': (_cc_arduino_cli_commands_v1_BoardIdentificationProperties__Output)[];
 }

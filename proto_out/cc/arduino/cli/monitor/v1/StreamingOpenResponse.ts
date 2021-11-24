@@ -1,4 +1,4 @@
-// Original file: src/cc/arduino/cli/monitor/v1/monitor.proto
+// Original file: src\cc\arduino\cli\monitor\v1\monitor.proto
 
 
 export interface StreamingOpenResponse {

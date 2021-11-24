@@ -4,16 +4,16 @@ import type { Instance as _cc_arduino_cli_commands_v1_Instance, Instance__Output
 
 export interface PlatformInstallRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
-  'platformPackage'?: (string);
+  'platform_package'?: (string);
   'architecture'?: (string);
   'version'?: (string);
-  'skipPostInstall'?: (boolean);
+  'skip_post_install'?: (boolean);
 }
 
 export interface PlatformInstallRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
-  'platformPackage': (string);
+  'platform_package': (string);
   'architecture': (string);
   'version': (string);
-  'skipPostInstall': (boolean);
+  'skip_post_install': (boolean);
 }

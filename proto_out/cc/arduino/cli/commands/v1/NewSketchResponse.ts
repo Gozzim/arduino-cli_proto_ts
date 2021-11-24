@@ -1,10 +1,10 @@
-// Original file: src/cc/arduino/cli/commands/v1/commands.proto
+// Original file: src\cc\arduino\cli\commands\v1\commands.proto
 
 
 export interface NewSketchResponse {
-  'mainFile'?: (string);
+  'main_file'?: (string);
 }
 
 export interface NewSketchResponse__Output {
-  'mainFile': (string);
+  'main_file': (string);
 }

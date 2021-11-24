@@ -4,11 +4,11 @@ import type { BoardListItem as _cc_arduino_cli_commands_v1_BoardListItem, BoardL
 import type { Port as _cc_arduino_cli_commands_v1_Port, Port__Output as _cc_arduino_cli_commands_v1_Port__Output } from '../../../../../cc/arduino/cli/commands/v1/Port';
 
 export interface DetectedPort {
-  'matchingBoards'?: (_cc_arduino_cli_commands_v1_BoardListItem)[];
+  'matching_boards'?: (_cc_arduino_cli_commands_v1_BoardListItem)[];
   'port'?: (_cc_arduino_cli_commands_v1_Port | null);
 }
 
 export interface DetectedPort__Output {
-  'matchingBoards': (_cc_arduino_cli_commands_v1_BoardListItem__Output)[];
+  'matching_boards': (_cc_arduino_cli_commands_v1_BoardListItem__Output)[];
   'port': (_cc_arduino_cli_commands_v1_Port__Output | null);
 }

@@ -4,12 +4,12 @@ import type { Instance as _cc_arduino_cli_commands_v1_Instance, Instance__Output
 
 export interface EnumerateMonitorPortSettingsRequest {
   'instance'?: (_cc_arduino_cli_commands_v1_Instance | null);
-  'portProtocol'?: (string);
+  'port_protocol'?: (string);
   'fqbn'?: (string);
 }
 
 export interface EnumerateMonitorPortSettingsRequest__Output {
   'instance': (_cc_arduino_cli_commands_v1_Instance__Output | null);
-  'portProtocol': (string);
+  'port_protocol': (string);
   'fqbn': (string);
 }
