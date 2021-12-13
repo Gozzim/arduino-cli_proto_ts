@@ -1,19 +1,33 @@
 {
   "name": "arduino-cli_proto_ts",
   "version": "0.20.0",
-  "description": "",
-  "author": "",
+  "description": "Conversion of arduino-cli proto files into TypeScript",
+  "author": "Gozzim",
   "license": "GPL-3.0",
+  "type": "module",
   "exports": {
-    "./": "./src/"
+    "/commands": "./proto_out/commands.ts",
+    "/debug": "./proto_out/debug.ts",
+    "/monitor": "./proto_out/monitor.ts",
+    "/settings": "./proto_out/settings.ts",
+    "/types": {
+      "/commands": "./proto_out/cc/arduino/cli/commands/v1",
+      "/debug": "./proto_out/cc/arduino/cli/debug/v1",
+      "/monitor": "./proto_out/cc/arduino/cli/monitor/v1",
+      "/settings": "./proto_out/cc/arduino/cli/settings/v1"
+    },
+    "/proto": "./src/"
   },
   "scripts": {
+    "build": "tsc",
     "build:commands": "proto-loader-gen-types --keepCase --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js -I src/ --outDir=proto_out/ cc/arduino/cli/commands/v1/commands.proto",
     "build:debug": "proto-loader-gen-types --keepCase --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js -I src/ --outDir=proto_out/ cc/arduino/cli/debug/v1/debug.proto",
     "build:monitor": "proto-loader-gen-types --keepCase --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js -I src/ --outDir=proto_out/ cc/arduino/cli/monitor/v1/monitor.proto",
     "build:settings": "proto-loader-gen-types --keepCase --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js -I src/ --outDir=proto_out/ cc/arduino/cli/settings/v1/settings.proto"
   },
   "dependencies": {
-    "@grpc/proto-loader": "^0.6.7"
+    "@grpc/grpc-js": "^1.4.4",
+    "@grpc/proto-loader": "^0.6.7",
+    "typescript": "^4.5.3"
   }
 }
